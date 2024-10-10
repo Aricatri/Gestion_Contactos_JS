@@ -1,0 +1,49 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Afacad', sans-serif;
+}
+body{
+  padding-top: 90px;
+  background-color: rgb(228, 205, 209);
+  display: flex; /*nso ayuda a colocarlo como padre*/
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+.principal_container h1{
+  display: flex; /*nso ayuda a colocarlo como padre*/
+  padding: 10px;
+  border: 5px inset salmon;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  width: 600px;
+  background-color: wheat;
+
+}
+.principal_container input{
+  background-color: rgb(243, 230, 242);
+  border-radius: 10px;
+  height: 30px;
+  width: 300px;
+  border: 1px none ;
+  margin: 20px;
+}
+button {
+  background-color: rgb(109, 57, 91); /* Color de fondo de los botones */
+  color: rgb(231, 216, 230); /* Color del texto de los botones */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interior del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin: 5px;
+  border-radius: 5px;
+}
+/* Estilo para la lista de contactos */
+#contactList {
+  width: 590px; /* Ajusta este valor según lo que necesites */
+  background-color: rgb(255, 255, 255); /* Color de fondo de la lista */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  list-style-type: none; /* Eliminar viñetas de la lista */
+  margin: 10px;
+}
+
