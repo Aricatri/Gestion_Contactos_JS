@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Management</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="principal_container">
+      <h1>Contact Management</h1>
+
+      <input
+        type="text"
+        id="contactInput"
+        placeholder="Contact Name"
+        autocomplete="off"
+      />
+      <button id="addContactButton">Add Contact</button>
+      <button id="sortContactsButton">Sort Alphabetically</button>
+      <div class="second_container">
+        <p id="contactCount">Total Contacts: 0</p>
+        <ul id="contactList"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
